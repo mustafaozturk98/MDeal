@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@300&family=Raleway&family=Roboto&display=swap");
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-georama {
+  font-family: "Georama";
+}
+
+.font-rale {
+  font-family: "Raleway";
+}
+
+.font-roboto {
+  font-family: "Roboto";
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #030000;
+}
+
+.color-primary-bg {
+  background: #030000;
+}
+
+.color-second {
+  color: #00a179;
+}
+
+.color-second-bg {
+  background: #00a179;
+}
+
+.color-blue {
+  color: #1379da;
+}
+
+.color-blue-bg {
+  background: #1379da;
+}
+
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.3s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #030000;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
